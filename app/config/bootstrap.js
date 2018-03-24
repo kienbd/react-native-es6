@@ -1,6 +1,10 @@
 import { Font } from 'expo'
 import React, { Component } from 'react'
+import { Provider } from 'react-redux'
+
 import LoadingScreen from '../screens/LoadingScreen'
+import store from '../store'
+
 
 import Routes from './routes'
 
@@ -26,7 +30,9 @@ export default class Bootstrap extends Component {
       return <LoadingScreen />
     }
     return (
-      <Routes />
+      <Provider store={store}>
+        <Routes />
+      </Provider>
     )
   }
 }
