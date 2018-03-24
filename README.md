@@ -22,7 +22,7 @@ Visit [here](https://github.com/react-community/create-react-native-app/blob/mas
 3. Install [Expo](https://docs.expo.io/versions/latest/introduction/installation.html) 
 4. Install [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
 
-Redux ready on `redux` branch.
+Redux ready on [redux branch](https://github.com/kienbd/react-native-es6/tree/redux).
 
 
 ## Available Scripts
